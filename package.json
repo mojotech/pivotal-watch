@@ -1,0 +1,27 @@
+{
+  "name": "pivotal-watch",
+  "version": "0.0.0",
+  "description": "Watch pivotal tracker project",
+  "main": "bin/pivotal-watch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "pivotal",
+    "tracker",
+    "pivotal-tracker",
+    "pivotal"
+  ],
+  "author": "Aaron Snyder",
+  "license": "MIT",
+  "bin": {
+    "pivotal-watch": "./bin/pivotal-watch"
+  },
+  "dependencies": {
+    "pivotal": "*",
+    "prompt": "*",
+    "underscore": "*",
+    "optimist": "*"
+  }
+}

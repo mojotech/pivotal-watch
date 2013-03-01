@@ -1,0 +1,4 @@
+#!/bin/bash
+echo '#!/usr/bin/env node' | cat - bin/pivotal-watch.js > temp && mv temp bin/pivotal-watch.js
+chmod +x bin/pivotal-watch.js
+./bin/pivotal-watch.js
